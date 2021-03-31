@@ -1,5 +1,9 @@
 @import url(//db.onlinewebfonts.com/c/9b06ae83a4412168ed194a8ed31218c2?family=Mabry+Pro+Medium);
-
+html{
+    width: 1243px;
+    overflow-x: hidden;
+    scroll-margin-inline: none;
+}
 body{
     /* background-color: #171c5d; */
     margin: 0;
@@ -8,13 +12,8 @@ body{
     font-family: "Helvetica Neue",Arial,sans-serif;
     font-size: 16px;
     word-spacing: 1px;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    box-sizing: border-box;
-    background: #f3eae5;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    
     
 }
 h1,h2,h3,h4,h5,h6{
@@ -53,25 +52,31 @@ h1,h2,h3,h4,h5,h6{
     background-color:#171c5d ;
     color: white;
     width: 100%;
+    overflow-x: hidden;
 }
 .body-container1{
     background-color: #171c5d;
+    margin: auto;
+    width:100%;
+    
 }
 .toggle-button{
-    position: absolute;
-    top: 2rem;
-    right: 2rem;
+    position: relative;
+    top: 0px;
+    right: 64px;
     display: none;
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
     height: 21px;
+    
 
 }
 .toggle-button .bar{
     height: 3px;
     width: 100%;
     background-color: white;
+    position: relative;
     border-radius: 10px;
 }
 
@@ -251,7 +256,7 @@ text-align: left;
     max-width: 850px;
     
 }
-span{
+.heading2 span{
     color: #dd59cf;
 }
 .body-2-columns{
@@ -356,54 +361,543 @@ font-size: 20px;
     letter-spacing: 0;
     max-width: 590px;
 }
-
-
-@media (max-width: 1024px){
-    .BrandLogo{
-        position: relative;
-        top: 0.5rem;
-    }
-    .toggle-button{
-        display: flex;
-    }
-    .navbarLinks{
-        display: none;
-    }
-    .body1{
-        flex-direction: column;
-    }
-    .Monkey2{
-        display: none;
-    }
-    .Monkey1{
-        width: 24rem;
+.body2-features2{
     display: flex;
-    position: relative;
-    top:-2rem;
-    height: 26rem;
-    margin:0 auto 0;
-    padding-left: 0;
-    }
-    /* .hamburgerMenu{
-        display: flex;
-      
-    }
-    .orangeLogo{
-        display: block;
-    }
-    .navbar{
-        background-color: #ffb283;
-    }
-    .menu{
-        width: 100%;
-        height: 100%;
-        background-color:#ffb283 ;
-        overflow-x: hidden;
-    }
-    .brandName{
-        left: 6rem;
-        font-size: 1.5rem;
-    }
-     */
+    margin-inline:4rem;
+}
+.body2-features2 .title{
+    font-size: 56px;
+    line-height: 52px;
+    font-weight: 400;
+    color: #0e1889;
+    letter-spacing: 0;
+    max-width: 590px;
+    margin: 0 0 17px;
 
 }
+.body2-features2 .text{
+    font-size: 20px;
+    line-height: 28px;
+    color: #3e3c43;
+    letter-spacing: 0;
+    max-width: 590px;
+    padding-right: 6rem ;
+}
+
+
+.body2-features2 .content{
+    margin: 3rem;
+}
+.body2-features2 img{
+    position: relative;
+    right: 6rem;
+    bottom: 2rem;
+}
+.body3 .heading{
+    color: #484543;
+    max-width: 850px;
+    margin: 0 0 2px;
+    font-size: 43px;
+    letter-spacing: 0;
+    line-height: 44px;
+    font-weight: 400;
+    display: block;
+    padding-left:2rem ;
+
+  
+}
+.body3 .heading span{
+    color: #118391;
+}
+.body3{
+    margin: 3rem;
+    margin-top: 7rem;
+}
+.animatedbar{
+height: 10rem;
+width: 100%;
+background-color: chocolate;
+}
+.body4{
+    display: flex;
+    margin-left:3rem;
+}
+.body4 .col1{
+    background-color: #ffb283;
+    margin-right: 5rem;
+    object-fit: cover;
+    width: 70%;
+    border-radius: 15px;
+    
+}
+.body4 .col1 .text{
+    font-family: "Mabry Pro",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 55px;
+    color: #206871;
+    letter-spacing: 0;
+    margin: 3rem;
+}
+.body4 .col1 img{
+    width:100%
+}
+.body4 .col2 img{
+    width:100%;
+    position: relative;
+    top: -1rem;
+    
+}
+.body4 .col2{
+    background: #206871;
+    /* padding: 33px 32px 41px 38px; */
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 40%;
+    position: relative;
+    right: 3rem;
+    border-radius: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    
+}
+.body4 .col2 .text{
+    margin:3rem ;
+    font-size: 26px;
+    line-height: 33px;
+    color: #fff;
+    letter-spacing: 0;
+}
+.text-box-one::after{
+    content: '';
+    width: 85px;
+    height: 24px;
+    /* background-color: blueviolet; */
+    background-image: url(https://moderne.st/_nuxt/img/tags-arrow-01.5ae39fd.png);
+    left: calc(100% + 14px);
+    top: 17px;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.text-box-two::after{
+    content: '';
+    width: 33px;
+    height: 19px;
+    background-image: url(arrow2.png);
+    left: calc(100% + 15px);
+    top: 13px;
+    content: "";
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*  */
+}
+.text-box-three::after{
+    width: 90px;
+    height: 22px;
+    background-image: url(arrow3.png);
+    left: calc(100% + 13px);
+    top: 15px;
+    content: "";
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.text-box-four::after{
+    width: 69px;
+    height: 22px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAAAWCAYAAACWl1FwAAAAAXNSR0IArs4c6QAAAvxJREFUWAnlmE9IFFEcx51USjOotqR/pol0COoSZXTxVELRMYjoEHTQQ0EURBAR1aFL0KVrUBB0KeoQBB2kosCKDUkoCXIFjTRrrV0lKW37fJd5uLvO7OyOSzO7feHD78178/78fu/Pvtmqqv9IqVRqMbRAB+yFyzAORldIVFuVFBMcqsWfFmgCpVdAK2yHRmiANTaYefpNzp6aedllmGEH4wRDPwIKyCqfbiiQa33WDVc1grIfSqERGmlaFC73fI8m4rvmXMUEyaOWZQ3PZZVxitmNwAP4CTM237Av4C3MQj6pvKuMQ+A8dJyqgU3QChtgC5yFQfgD+XSDwor60cmKEs7VwWF4CYUoykt+D+asvkP3gGONcBz6oVBN8GJ76JxZ6IBwSpexcxADN8Uo+OpQ2L3Q/kNVHwd1ZlyFUQdnTZYCcQlOwpTJtO0tbGWcIziyG25DAtw0TMFFaIY2+ASZ0jlSip/x4BYKDiwHHZ4PYRrcNEDBKUjfSrH18AwyFedhZ15veCGUFzjGVQvtcA0+Qj69pvAY6FsnLdIWaHvlyvscocZj6IZ1psGgLGNogB1wHjTDv8BNunD1wEGozx0zec2Qu8Vukue9CHjJaIzEfegC7cO63I5K/UwfCoIuXAfgOvSBbqT5lKRQt9dOqHYbE2XrQbdaI7Vd0H1ESyzl0PAkeQPwDl5BFMbgByT4PpjBFiSa1wm/DPTZLms+5beR3gxtsBS8pPHchXv03+f1ssrp+xDmDIzCaeq9x3rKLShOFZNkqvHPMA76gFKeYZb0EtAKM3Yl6dUZaKaK+btCE9EDd+AJTqmvoqRJQU4T79qOgnKB0k7YCprNoDXIAJ7DI+jFoSHsP1X68kJgdPgoKB2wD7SsN4LrnqWsFJqmkREYgl54ClECMYENTI43OoKkJa+9rkDtstMRrJa/bDHB0tKVk99tq63XD2/gA8SCDgJjyJJjULLesB8IlA5Jcz4oMCZICpRQoCZBZ80UJOELaCXEQYGJEwCdPaHWX+d08rtp6d+IAAAAAElFTkSuQmCC);
+    left: calc(100% + 14px);
+    top: 9px;
+    content: "";
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.body5{
+    display: flex;
+    margin: 3rem;
+    margin-top: 17rem;
+    padding-right: 40px;
+    margin-left: 0px;
+    font-family: "Mabry Pro Medium",Arial,sans-serif;
+    
+
+}
+.body5 .leftBoxes .text{
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+    color: #7a7780;
+    letter-spacing: 0;
+    padding: 12px 20px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    
+}
+.einstein img{
+    position: relative;
+    left:14rem;
+    bottom: 1rem;
+}
+.text-box-one{
+    position: relative;
+    top: 3rem;
+    left: 7rem;
+}
+.text-box-two{
+    position: relative;
+    top: 5rem;
+    left: 12rem;
+    width: 11rem;
+    
+}
+.text-box-three{
+    position: relative;
+    top:7rem;
+    left: 8rem;
+    width: 10rem;
+}
+.text-box-four{
+    position: relative;
+    top: 8.5rem;
+    left: 14rem;
+    width: 6rem;
+}
+.einstein .img-text{
+    font-family: "Mabry Pro Medium",Arial,sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    color: #7a7780;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 0 7px 0 0;
+    position: relative;
+    left: 13rem;
+    top: 2rem;
+}
+.rightBoxes{
+    padding: 4rem;
+    position: relative;
+    left: 6rem;
+}
+.top::after{
+    width: 69px;
+    height: 22px;
+    background-image: url(https://moderne.st/_nuxt/img/tags-arrow-05.6997f44.png);
+    right: calc(100% + 16px);
+    top: 31px;
+    content: "";
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bottom::after{
+    width: 85px;
+    height: 24px;
+    background-image: url(https://moderne.st/_nuxt/img/tags-arrow-06.741a2dd.png);
+    right: calc(100% + 20px);
+    top: 43px;
+    content: "";
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.top{
+    position: relative;
+    bottom: 1rem;
+    width: 18rem;
+    left: 7rem;
+    margin-right: 6rem;
+    border: 2px solid #40ac76;
+    border-radius: 4px;
+    padding: 20px 20px 20px 25px;
+    max-width: 373px;
+}
+.top .text{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #7a7780;
+    
+}
+.top .title{
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 0;
+    margin: 0 0 4px;
+    color: #40ac76;
+}
+
+.bottom{
+    position: relative;
+    width: 19rem;
+    border: 2px solid #33abb9;
+    border-radius: 4px;
+    padding: 20px 20px 20px 25px;
+    max-width: 373px;
+    top: 1rem;
+    left: 8rem;
+
+}
+.bottom .title{
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 0;
+    margin: 0 0 4px;
+    color: #33abb9;
+}
+.bottom .text{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #7a7780;
+}
+.body6{
+    margin-top: 10rem;
+}
+.cards{
+    display: flex;
+    padding:10px;
+    height: auto;
+}
+.card{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #fff;
+    border-radius: 4px;
+    padding: 27px 28px 24px;
+    justify-content: space-between;
+}
+.card1 .label{
+    background: #fdd7f5;
+    color: #b358be;
+    font-size: 14px;
+    letter-spacing: 0;
+    border-radius: 3px;
+    padding: 6px 12px 5px;
+    margin: 0;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+}
+.card2 .label{
+    background: #fdd5c3;
+    color: #be7558;
+    font-size: 14px;
+    letter-spacing: 0;
+    border-radius: 3px;
+    padding: 6px 12px 5px;
+    margin: 0;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+}
+.card3 .label{
+    background: #bdedd5;
+    color: #3d9f6e;
+    font-size: 14px;
+    letter-spacing: 0;
+    border-radius: 3px;
+    padding: 6px 12px 5px;
+    margin: 0;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+}
+.card1 img{
+    margin-inline: auto;
+    margin-top: 2rem;
+}
+.card2 img{
+    margin-inline: auto;
+    margin-top: 2rem;
+}
+.card3 img{
+    margin-inline: auto;
+    margin-top: 2rem;
+}
+.card .text{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    color: #7a7780;
+    letter-spacing: 0;
+    margin-top: 2rem;
+    -webkit-font-smoothing: antialiased;
+}
+.card1 span{
+    color:#cc68d8
+}
+.card2 span{
+    color:#fd804e;
+}
+.card3 span{
+    color: #40ac76;
+}
+.body7{
+    margin: 3rem;
+}
+.body7 .text{
+    max-width: 755px;
+    font-size: 43px;
+    letter-spacing: 0;
+    line-height: 44px;
+    font-weight: 400;
+    color: #0e1889;
+}
+.body7 span{
+    color: #dd59cf;
+}
+.body8 .columns{
+    display: flex;
+}
+.body8{
+    margin-top: 2rem;
+}
+.body8 .col{
+    margin: 3rem;
+    margin-top: 0rem;
+}
+.col .label{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3e3c43;
+    letter-spacing: 0;
+    margin: 0 0 5px;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+}
+.col .text{
+    font-size: 18px;
+    line-height: 24px;
+    color: #3e3c43;
+    letter-spacing: 0;
+    margin: 0 0 5px;
+}
+.columns .content{
+    margin-top: 2rem;
+}
+.email-box{
+    position: relative;
+    background: #ffd02d;
+    border-radius: 4px;
+    padding: 49px 246px 46px 46px;
+    margin: 3rem;
+    z-index: 100;
+    top: 7rem;
+}
+.body9 .text .title{
+    position: relative;
+    font-family: "Mabry Pro Medium",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 69px;
+    line-height: 64px;
+    color: #ff7399;
+    letter-spacing: 0;
+    margin: 0 0 61px;
+    margin-right: 3rem;
+    padding-right: 6.25rem;
+    z-index: 1;
+    max-width: 780px;
+}
+.body9 .text .label{
+    display: block;
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 0;
+    margin: 0 0 17px;
+}
+.body9 .text input{
+    background: rgba(62,60,67,.2);
+    border-radius: 4px;
+    border: none;
+    padding: 20px 21px 19px;
+    font-size: 22px;
+    width: 28.813rem;
+    height: 1.625rem;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.body9 .text button{
+    font-weight: 500;
+    font-size: 24px;
+    color: #ff7399;
+    letter-spacing: 0;
+    background: #fff;
+    border-radius: 4px;
+    padding: 19px 26px 18px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 100;
+    left: 1rem;
+}
+.email-box{
+    display: flex;
+}
+.email-box img{
+    height: 362px;
+    position: absolute;
+    top: 46px;
+    right: 29px;
+
+}
+footer .container{
+    position: relative;
+    background: #000647;
+    padding: 10rem;
+    top: 0rem;
+    z-index: 0;
+    display: flex;
+    height: 10rem;
+    
+}
+footer .container .col{
+    padding: 5rem 2rem 0rem 1rem;
+    position: relative;
+    top: -3rem;
+    left: 3rem;
+}
+footer .container .col ul li a{
+text-decoration: none;
+font-family: "Mabry Pro Medium",Arial,sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 16px;
+    color: #7c80ad;
+    text-decoration: none;
+}
+footer .container .col ul li a:hover{
+    color: #d4d7f7;
+    transition: color .15s ease;
+
+
+}
+footer .container .col ul{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+footer li{
+    margin: 8px;
+    width:7rem;
+}
+footer .brand img{
+    position: relative;
+    top: 3rem;
+    right: 7rem;
+    height: 3rem;
+}
+footer .brand .copyright{
+    color: #7c80ad;
+    width: 8rem;
+    position: relative;
+    top: 7rem;
+    right: 7rem;
+}
+
+
