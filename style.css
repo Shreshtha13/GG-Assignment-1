@@ -1,7 +1,8 @@
 @import url(//db.onlinewebfonts.com/c/9b06ae83a4412168ed194a8ed31218c2?family=Mabry+Pro+Medium);
 html{
-    width: 1243px;
+    width: 100%;
     overflow-x: hidden;
+    
     scroll-margin-inline: none;
 }
 body{
@@ -29,8 +30,8 @@ h1,h2,h3,h4,h5,h6{
 } */
 .BrandLogo{
     height: 4rem;
-    position: relative;
-    left: 2rem;
+    position: absolute;
+    left:1rem;
     padding-top: 1rem;
     /* z-index: 100; */
     cursor: pointer;
@@ -548,25 +549,26 @@ background-color: chocolate;
     position: relative;
     top: 3rem;
     left: 7rem;
+    width: auto;
 }
 .text-box-two{
     position: relative;
     top: 5rem;
     left: 12rem;
-    width: 11rem;
+    width: auto;
     
 }
 .text-box-three{
     position: relative;
     top:7rem;
     left: 8rem;
-    width: 10rem;
+    width: auto;
 }
 .text-box-four{
     position: relative;
     top: 8.5rem;
     left: 14rem;
-    width: 6rem;
+    width: auto;
 }
 .einstein .img-text{
     font-family: "Mabry Pro Medium",Arial,sans-serif;
@@ -783,7 +785,7 @@ background-color: chocolate;
     position: relative;
     background: #ffd02d;
     border-radius: 4px;
-    padding: 49px 246px 46px 46px;
+    padding: 49px 59px 46px 46px;
     margin: 3rem;
     z-index: 100;
     top: 7rem;
@@ -898,6 +900,453 @@ footer .brand .copyright{
     position: relative;
     top: 7rem;
     right: 7rem;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:1024px){
+.navbarLinks{
+    display: none;
+}
+.navbar img{
+    position: fixed;
+    top: 0.3rem;
+    z-index: 200;
+}
+.navbar .brandName{
+    position: fixed;
+}
+.body1{
+    display: flex;
+    flex-direction: column;
+}
+.Monkey2{
+   display: none;
+}
+.Monkey1{
+  display:flex;
+
+  justify-content: center;
+  position: relative;
+  width: 80vmin;
+  height: 75.625vmin;
+  top: 3rem;
+  right: auto;
+  margin: 0 auto 3.4375vmin;
+  order: 0;
+}
+.body1_text .heading1{
+    font-size: 11.5625vmin;
+    line-height: 12.5vmin;
+    text-align: center;
+    margin-inline: auto;
+    position: relative;
+    left: 17px;
+    order: 2;
+}
+.body1_text .text1{
+    font-size: 5.625vmin;
+    line-height: 7.5vmin;
+    text-align: center;
+    margin: 0 0 7.5vmin;
+    order: 3;
+}
+
+.getStarted{
+display: block;
+font-size: 7.5vmin;
+padding: 4.0625vmin 4.6875vmin 4.6875vmin;
+width: 88%;
+box-sizing: border-box;
+border-radius: .9375vmin;
+position: relative;
+height: 7rem;
+
+/* margin-right: rem; */
+
+}
+.body-container2 .heading2{
+    padding-top: 3rem;
+    font-size: 5.625vmin;
+    line-height: 7.5vmin;
+    text-align: center;
+    margin: 0 0 7.5vmin;
+    order: 3;
+}
+.body-2-columns{
+    display: flex;
+    flex-direction: column;
+}
+.body-2-columns .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body-2-columns .col .title{
+    margin: 0 0 1.5625vmin;
+    font-weight: 700;
+    text-align: center;
+}
+.body-2-columns .col .text{
+    width: 120%;
+    font-size: 5vmin;
+    line-height: 6.5625vmin;
+    margin: 0;
+    text-align: center;
+}
+.body2-features{
+    display: flex;
+    flex-direction: column;
+}
+.body2-features img{
+    height: 88.875vmin;
+    margin: 0 auto .9375vmin;
+    position: relative;
+    left: 0rem; 
+   
+}
+.body2-features .content{
+    position: relative;
+    display: block;
+    top: 3rem;
+
+}
+.body2-features .content .title{
+    font-size: 9.0625vmin;
+    line-height: 10.625vmin;
+    text-align: center;
+    margin: 0 0 3.125vmin;
+    max-width: none;
+    position: relative;
+    left: -5rem;
+    width: 100%;
+    
+}
+.body2-features .content .text{
+    display: block;
+    font-size: 5vmin;
+    line-height: 6.5625vmin;
+    text-align: center;
+    max-width: none;
+    position: relative;
+    margin-inline: auto;
+    left: -5rem;
+}
+.body2-features2{
+    display: flex;
+    flex-direction: column;
+}
+.body2-features2 img{
+    height: 88.875vmin;
+    margin: 0 auto .9375vmin;
+    position: relative;
+    left: 0rem; 
+    order: 0;
+   
+}
+.body2-features2 .content{
+    position: relative;
+    display: block;
+    order: 1;
+    left: 7rem;
+}
+.body2-features2 .content .title{
+    font-size: 9.0625vmin;
+    line-height: 10.625vmin;
+    text-align: center;
+    margin: 0 0 3.125vmin;
+    max-width: none;
+    position: relative;
+    left: -7rem;
+    width: 100%;
+    
+}
+.body2-features2 .content .text{
+    display: block;
+    font-size: 5vmin;
+    line-height: 6.5625vmin;
+    text-align: center;
+    max-width: none;
+    position: relative;
+    margin-inline: auto;
+    left: -7rem;
+    width: 100%;
+}
+.body3 .heading{
+    font-size: 6.875vmin;
+    line-height: 8.4375vmin;
+    text-align: center;
+}
+.body4{
+    display: flex;
+    flex-direction: column;
+}
+.body4 .col1{
+    font-size: 6.875vmin;
+    line-height: 8.4375vmin;
+    text-align: center;
+    width: 90%;
+}
+.body4 .col1 .text{
+    width: 100%;
+    display: block;
+    font-size: 9.0625vmin;
+    line-height: 10.625vmin;
+    text-align: center;
+    margin: 3rem 0 19.375vmin;
+}
+.body4 .col2{
+    font-size: 6.875vmin;
+    line-height: 8.4375vmin;
+    text-align: center;
+    margin-top: 3rem;
+    margin-inline: 3rem;
+    width: 90%;
+
+}
+.body4 .col2 img{
+    position: relative;
+    top: 1rem;
+
+}
+.body4 .col2 .text{
+    font-size: 5.625vmin;
+    line-height: 7.5vmin;
+    text-align: left;
+
+}
+.body5{
+    display: flex;
+    flex-direction: column ;
+}
+.body5 .leftBoxes .text::after{
+    display: none;
+}
+.body5 .leftBoxes {
+    /* margin-inline: 10rem; */
+    margin-bottom: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin-inline: 3rem; */
+    margin-inline: auto;
+    position: relative;
+    right: 3rem;
+}
+.body5 .leftBoxes .text{
+    font-size: 5.9375vmin;
+    line-height: 7.1875vmin;
+    padding: 2.8125vmin 5.625vmin 2.5vmin;
+    border-width: .625vmin;
+    margin: 0.6rem;
+
+}
+.body5 .leftBoxes .text-box-two{
+    position: relative;
+    left: 7rem;
+    width: auto;
+}
+.body5 .leftBoxes .text-box-three{
+position: relative;
+
+margin-left: 15vmin;
+}
+.body5 .leftBoxes .text-box-four{
+    position: relative;
+    left: 7rem;
+}
+
+.body5 .einstein img{
+   
+    width: 100%;
+    margin: 0 0 22.5vmin;
+    position: relative;
+    left: 3rem;
+    
+}
+.body5 .einstein .img-text{
+    font-size: 5.9375vmin;
+    line-height: 7.1875vmin;
+    left: 39px;
+    top: 0px;
+}
+.rightBoxes{
+    margin-inline: auto;
+    padding-right: 1rem;
+}
+.rightBoxes .top::after{
+display: none;
+}
+.rightBoxes .bottom::after{
+    display: none;
+}
+.rightBoxes .top{
+    margin: 0 0 5.9375vmin;
+    border-width: .625vmin;
+    border-radius: 1.25vmin;
+    padding: 5.3125vmin 5.3125vmin 6.5625vmin 5vmin;
+    max-width: none;
+    width: 100%;
+    position: relative;
+    left: -7rem;
+   
+}
+.rightBoxes .top .title{
+    font-size: 5.9375vmin;
+    line-height: 7.1875vmin;
+}
+.rightBoxes .top .text{
+    font-size: 5.9375vmin;
+    line-height: 7.1875vmin;
+}.rightBoxes .bottom .title{
+    font-size: 5.9375vmin;
+    line-height: 7.1875vmin;
+}.rightBoxes .bottom .text{
+    font-size: 5.9375vmin;
+    line-height: 7.1875vmin;
+}
+.rightBoxes .bottom{
+    margin: 0 0 5.9375vmin;
+    border-width: .625vmin;
+    border-radius: 1.25vmin;
+    padding: 5.3125vmin 5.3125vmin 6.5625vmin 5vmin;
+    max-width: none;
+    width: 100%;
+    position: relative;
+    left: -7rem;
+}
+.body6 .cards{
+    display: flex;
+    flex-direction: column;
+}
+.body6 .cards .card div{
+    font-family: "Mabry Pro Medium",Arial,sans-serif;
+}
+.body7 .text{
+    font-size: 6.875vmin;
+    line-height: 8.4375vmin;
+    text-align: center;
+    max-width: 755px;
+    /* color: lightcyan ; */
+}
+.body8 .columns{
+    display: flex;
+    flex-direction: column;
+}
+.body9 .email-box{
+    display: flex;
+    flex-direction: column;
+    margin-inline: 1rem;
+    height: auto;
+    width: auto;
+}
+.body9 .email-box .text{
+    border-radius: 2.5vmin;
+    padding: 75.3125vmin 3.125vmin 4.375vmin;
+    /* text-align: center; */
+    width: 100%;  
+}
+.body9 .email-box .text .title{
+    font-size: 8.125vmin;
+    line-height: 9.6875vmin;
+    margin: 0 0 7.8125vmin;
+    text-align: center;
+    width: 100%;
+   position: relative;   
+   left: -2rem; 
+}
+.body9 .email-box img{
+    width: 82.1875vmin;
+    height: auto;
+    top: 4.0625vmin;
+    left: 5.3125vmin;
+}
+.body9 .email-box .text .label{
+    display: none;
+}
+.body9 .email-box .text .getEmail #e-mail{
+    font-size: 6.25vmin;
+    line-height: 7.5vmin;
+    border-radius: 1.25vmin;
+    padding: 5vmin 5vmin 4.6875vmin;
+    width: 100%;
+    left: -1rem;
+    position: relative;
+    margin-bottom: 1rem;
+    
+    
+
+    
+}
+.body9 .email-box .text .getEmail .btn{
+    font-size: 6.25vmin;
+    line-height: 7.5vmin;
+    border-radius: 1.25vmin;
+    padding: 5vmin 5vmin 4.6875vmin;
+    width: 106%;
+    position: relative;
+    left: -1rem;
+
+}
+footer .container{
+    display: flex;
+    flex-direction: column;
+height: auto;
+}
+footer .container .brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4.6875vmin;
+    line-height: 5vmin;
+    color: #7c80ad;
+}
+footer .container .brand img{
+    position: relative;
+    left: 0rem;
+    height: 10rem;
+    width: auto;
+}
+footer .container .brand .copyright{
+    text-align: center;
+    position: relative;
+    left: -1rem;
+}
+footer .container .col1{
+    position: relative;
+    left: -10rem;
+    top: 10rem;
+
+}
+footer .container .col2{
+    position: relative;
+    left: 15rem;
+    top: -5rem;
+
+}
+footer .container .col3{
+    position: relative;
+    left: -10rem;
+    top: -5rem;
+
+}
+footer .container .col4{
+    position: relative;
+    left: 15rem;
+    top: -20rem;
+
+}
+
+
+
+
 }
 
 
