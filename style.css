@@ -30,9 +30,10 @@ h1,h2,h3,h4,h5,h6{
     font-family: "Helvetica Neue",Arial,sans-serif;
 } */
 .BrandLogo{
-    height: 4rem;
+    height: 3rem;
+    width: auto;
     position: absolute;
-    left:1rem;
+    left: 2rem;
     padding-top: 1rem;
     /* z-index: 100; */
     cursor: pointer;
@@ -415,11 +416,93 @@ font-size: 20px;
     margin: 3rem;
     margin-top: 7rem;
 }
-.animatedbar{
-height: 10rem;
-width: 100%;
-background-color: chocolate;
+.body3 .animatedbar .Bars{
+   display: flex; 
 }
+.body3 .animatedbar .Bars .bar{
+    margin: 15px;
+    position: relative;
+    top: 2rem;
+}
+.body3 .label{
+position: relative;
+top: 0rem;
+}
+.body3 .animatedbar .Bars .bar1{
+    position: relative;
+    background: #ff83a1;
+    border-radius: 2px;
+    overflow: hidden;
+    width: 100%;
+    height: 9px;
+    
+}
+.body3 .animatedbar .labels{
+    display: flex;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    
+}
+.body3 .animatedbar .labels .l1{
+    margin-right: 40px;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+    margin: 0 0 2px;
+    color: #ff83a1;
+}
+.body3 .animatedbar .labels .l2{
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+    margin-left: 65px;
+    color: #ff937e;
+}
+.body3 .animatedbar .labels .l3{
+    margin-left: 42px;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #ffa541;
+}
+
+.body3 .animatedbar .Bars .bar2{
+    position: relative;
+    background: #ff937e;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-left: 60px;
+    width: 100%;
+    height: 9px;
+}
+.body3 .animatedbar .Bars .bar3{
+    position: relative;
+    background: #ffa541;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-left: 100px;
+    width: 90%;
+    height: 9px;
+}
+.body3 .animatedbar .beforeTitle{
+    font-family: "Mabry Pro",Arial,sans-serif;
+    font-size: 20px;
+    color: #ab9182;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    position: relative;
+    top: 1rem;
+    left: 0.9rem;
+}
+
 .body4{
     display: flex;
     margin-left:3rem;
@@ -471,6 +554,7 @@ background-color: chocolate;
     line-height: 33px;
     color: #fff;
     letter-spacing: 0;
+    
 }
 .text-box-one::after{
     content: '';
@@ -539,6 +623,8 @@ background-color: chocolate;
     padding: 12px 20px;
     border: 2px solid #fff;
     border-radius: 4px;
+    display: inline-block;
+    width: auto;
     
 }
 .einstein img{
@@ -556,7 +642,7 @@ background-color: chocolate;
     position: relative;
     top: 5rem;
     left: 12rem;
-    width: auto;
+    width: 5rem;
     
 }
 .text-box-three{
@@ -918,7 +1004,7 @@ footer .brand .copyright{
 }
 .navbar img{
     position: fixed;
-    top: 0.3rem;
+    top: 0.9rem;
     z-index: 200;
 }
 .navbar .brandName{
@@ -968,7 +1054,8 @@ width: 88%;
 box-sizing: border-box;
 border-radius: .9375vmin;
 position: relative;
-height: 7rem;
+height: 4rem;
+left:1.5rem;
 
 /* margin-right: rem; */
 
@@ -1080,6 +1167,7 @@ height: 7rem;
     left: -7rem;
     width: 100%;
 }
+
 .body3 .heading{
     font-size: 6.875vmin;
     line-height: 8.4375vmin;
@@ -1167,10 +1255,10 @@ margin-left: 15vmin;
 
 .body5 .einstein img{
    
-    width: 100%;
+    width: 70%;
     margin: 0 0 22.5vmin;
     position: relative;
-    left: 3rem;
+    left: 6rem;
     
 }
 .body5 .einstein .img-text{
@@ -1275,7 +1363,7 @@ display: none;
     text-align: center;
     width: 100%;
    position: relative;   
-   left: -2rem; 
+   left: -0.3rem; 
 }
 .body9 .email-box img{
     width: 82.1875vmin;
@@ -1291,7 +1379,7 @@ display: none;
     line-height: 7.5vmin;
     border-radius: 1.25vmin;
     padding: 5vmin 5vmin 4.6875vmin;
-    width: 94%;
+    width: 100%;
     left: -1rem;
     position: relative;
     margin-bottom: 1rem;
@@ -1327,7 +1415,7 @@ footer .container .brand{
 footer .container .brand img{
     position: relative;
     left: 0rem;
-    height: 10rem;
+    height: 6rem;
     width: auto;
 }
 footer .container .brand .copyright{
@@ -1367,6 +1455,7 @@ footer .container .col4{
     position: fixed;
     top: 2rem;
     right: 2rem;
+    z-index: 800;
 
 }
 .bars{
