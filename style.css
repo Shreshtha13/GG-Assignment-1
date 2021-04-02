@@ -1319,6 +1319,12 @@ display: none;
 .body6 .cards .card div{
     font-family: "Mabry Pro Medium",Arial,sans-serif;
 }
+.body6 .cards .card img{
+    position: relative;
+    right: 1rem;
+    width: auto;
+    height: 15rem;
+}
 .body7 .text{
     font-size: 6.875vmin;
     line-height: 8.4375vmin;
