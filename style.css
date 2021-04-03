@@ -1013,6 +1013,7 @@ footer .brand .copyright{
 .body1{
     display: flex;
     flex-direction: column;
+    font-family: "Mabry Pro Medium",Arial,sans-serif;
 }
 .Monkey2{
    display: none;
@@ -1054,7 +1055,7 @@ width: 88%;
 box-sizing: border-box;
 border-radius: .9375vmin;
 position: relative;
-height: 4rem;
+height: 6rem;
 left:1.5rem;
 
 /* margin-right: rem; */
