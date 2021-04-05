@@ -1346,6 +1346,7 @@ padding-bottom: 1.5rem;
 .body4 .col1 img{
     width: 86.25vmin;
     height: auto;
+    position: relative;
     left: 2.8125vmin;
 }
 .body4 .col1 .text{
@@ -1368,15 +1369,19 @@ padding-bottom: 1.5rem;
 
 }
 .body4 .col2 img{
-    width: 87.8125vmin;
-    left: 1.875vmin;
+    width: 85.8125vmin;
+    position: relative;
+    left: 0.875vmin;
     top: 1.875vmin;
+    box-sizing: border-box;
 
 }
 .body4 .col2 .text{
     font-size: 5.625vmin;
     line-height: 7.5vmin;
     text-align: left;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
 
 }
 .body5{
@@ -1630,6 +1635,7 @@ footer .container .brand img{
     left: 0rem;
     height: 6rem;
     width: auto;
+    margin-bottom: 1rem;
 }
 footer .container .left-cols .col1{
     width: 45%;
