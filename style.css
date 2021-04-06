@@ -618,7 +618,7 @@ top: 0rem;
 .text-box-three::after{
     width: 90px;
     height: 22px;
-    background-image: url(arrow3.png);
+    background-image: url(Images/arrow3.png);
     left: calc(100% + 13px);
     top: 15px;
     content: "";
