@@ -221,7 +221,7 @@ position: relative;
     font-size: 1.5rem;
     line-height: 30px;
     text-align: left;
-    margin: 0 0 7.5vmin;
+    margin: 0 0 33px;
     order: 3;
     color: #6c72ae;
 }
@@ -353,6 +353,7 @@ font-size: 20px;
     max-width: 1200px;
     padding: 0 20px;
     margin: auto;
+    margin-bottom: 77px;
 }
 .body2-features img{
     position: relative;
@@ -557,7 +558,10 @@ top: 0rem;
     margin: 3rem;
 }
 .body4 .col1 img{
-    width:100%
+    width: 100%;
+    position: relative;
+    /* bottom: 0; */
+    top: 1.8rem;
 }
 .body4 .col2 img{
 
@@ -1163,16 +1167,17 @@ footer .brand .copyright{
 }
 
 .getStarted{
-display: block;
-font-size: 7.5vmin;
-width: 100%;
-box-sizing: border-box;
-border-radius: .9375vmin;
-position: relative;
-padding: 0;
-margin-bottom: 1rem;
-padding-top: 1.5rem;
-padding-bottom: 1.5rem;
+    height: auto;
+    display: block;
+    font-size: 7.5vmin;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: .9375vmin;
+    position: relative;
+    padding: 0;
+    margin-bottom: 1rem;
+    padding-top: 5.5vmin;
+    padding-bottom: 5.5vmin;
 
 /* margin-right: rem; */
 
@@ -1351,6 +1356,7 @@ padding-bottom: 1.5rem;
     height: auto;
     position: relative;
     left: 2.8125vmin;
+    top: 0;
 }
 .body4 .col1 .text{
     width: 100%;
