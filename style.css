@@ -1103,13 +1103,14 @@ footer .brand .copyright{
     position: fixed;
     top: 0.9rem;
     z-index: 200;
-    height: 1.5rem;
+    height: 2.5rem;
 }
 .navbar .brandName{
     position: fixed;
-    top: 2.15rem;
-    left: 3.7rem;
-    font-size: 1rem;
+    top: 2.5rem;
+    left: 4.6rem;
+    font-size: 1.2rem;
+    z-index: 200;
 }
 .body1{
     display: flex;
@@ -1179,17 +1180,19 @@ padding-bottom: 1.5rem;
 .body-container2 .heading2div{
     margin-inline: 0.5rem;
     width: auto;
-    padding-inline: 0.5rem;
+    padding-inline: 1.5rem;
+
 }
 .body-container2 .heading2{
-    padding-top: 3rem;
-    font-size: 2rem;
+   padding-top: 2rem;
+    font-size:25px;
     line-height: 9.5vmin;
     text-align: center;
     order: 3;
     font-weight: lighter;
    margin: 0;
    max-width: none;
+   word-spacing: 1px;
     
     
 }
