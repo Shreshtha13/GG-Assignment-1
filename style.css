@@ -214,7 +214,7 @@ position: relative;
     text-align: left;
 }
 .body1_text{
-    padding-top: 2.56rem;
+    padding-top: 3.56rem;
     padding-left: 2rem;
 }
 .text1{
@@ -259,7 +259,7 @@ position: relative;
     font-size: 2.7rem;
     font-weight:400;
     margin-left: 2rem;
-    padding-top: 6rem;
+    padding-top: 7rem;
     color: #0e1889;
     max-width: 850px;
     
@@ -300,6 +300,7 @@ font-size: 20px;
     color: #3e3c43;
     letter-spacing: 0;
     margin: 0 0 5px;
+    width: 101%;
 
 }
 .body-2-col-3-title {
@@ -353,7 +354,7 @@ font-size: 20px;
     max-width: 1200px;
     padding: 0 20px;
     margin: auto;
-    margin-bottom: 77px;
+    margin-bottom: 8rem;
     margin-top: 6rem;
 }
 .body2-features img{
@@ -552,7 +553,7 @@ top: 0rem;
     
 }
 .body4 .col1 .text{
-    font-family: "Mabry Pro",Arial,sans-serif;
+    font-family: "Mabry Pro Medium",Arial,sans-serif;
     font-weight: 400;
     font-size: 52px;
     line-height: 55px;
@@ -652,7 +653,7 @@ top: 0rem;
     padding: 0 51px;
     margin: auto;
     font-family: "Mabry Pro Medium",Arial,sans-serif;
-    margin-top: 11rem;
+    margin-top: 13rem;
     
 
 }
@@ -715,7 +716,7 @@ top: 0rem;
     /* padding: 0 7px 0 0; */
     position: relative;
     left: 3rem;
-    top: 2rem;
+    top: 1rem;
 }
 .rightBoxes{
     position: relative;
@@ -796,7 +797,7 @@ top: 0rem;
     color: #7a7780;
 }
 .body6{
-    margin-top: 10rem;
+    margin-top: 13rem;
 }
 .cards{
     display: flex;
@@ -913,7 +914,7 @@ top: 0rem;
     max-width: 1200px;
     padding: 0 20px;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 .body8{
     margin-top: 2rem;
@@ -949,10 +950,10 @@ top: 0rem;
 }
 .body9{
     position: relative;
-    
-    max-width: 1200px;
+    max-width: 1154px;
     padding: 0 2.8rem;
     margin: auto;
+
 }
 .email-box{
     position: relative;
@@ -1210,7 +1211,7 @@ footer .brand .copyright{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-inline:1rem;
+        padding-inline:2rem;
     }
     .body-2-col-1{
         padding-inline: 0;
@@ -1223,6 +1224,9 @@ footer .brand .copyright{
     line-height: 6.5625vmin;
     margin: 0;
     text-align: center;
+    }
+    .body-2-col-2-title{
+        width: auto;
     }
     .body-2-columns .col .body-2-col-1-text{
         margin-inline: 1rem;
@@ -1248,9 +1252,10 @@ footer .brand .copyright{
     .body2-features{
         display: flex;
         flex-direction: column;
-       margin-top: 6rem;
+       margin-top: 5rem;
         padding:0;
         width: auto;
+        margin-bottom: 4rem;
     }
     .body2-features img{
         height: 88.875vmin;
@@ -1270,7 +1275,7 @@ footer .brand .copyright{
     
     }
     .body2-features .content .title{
-        font-size: 10.0625vmin;
+        font-size: 9.0625vmin;
         line-height: 10.625vmin;
         text-align: center;
         margin: 0 0 3.125vmin;
@@ -1288,7 +1293,7 @@ footer .brand .copyright{
         text-align: center;
         max-width: none;
         position: relative;
-        margin-inline: 0.5rem;
+        margin-inline: 1.5rem;
         
     }
     .body2-features2{
@@ -1319,7 +1324,7 @@ footer .brand .copyright{
         font-size: 8.8;
         line-height: 10.625vmin;
         text-align: center;
-        margin: 0 0 3.125vmin;
+        margin: 0 0 2vmin;
         max-width: none;
         position: relative;
         
@@ -1331,7 +1336,7 @@ footer .brand .copyright{
         text-align: center;
         max-width: none;
         position: relative;
-        margin-inline: auto;
+        margin-inline: 1rem;
         padding-right: 0;
     }
     .body3{
@@ -1374,8 +1379,8 @@ footer .brand .copyright{
         top: 11px;
     }
     .body4 .col1 .text{
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
         display: block;
         font-size: 9.0625vmin;
         line-height: 10.625vmin;
@@ -1439,7 +1444,7 @@ footer .brand .copyright{
         margin: 0;
         font-family: "Helvetica Neue",Arial,sans-serif;
         font-weight: 600;
-        margin-bottom: 1rem;
+        margin-bottom: 0rem;
     }
     .body5 .leftBoxes .text-box-two{
         position: relative;
@@ -1488,7 +1493,7 @@ footer .brand .copyright{
         display: none;
     }
     .rightBoxes .top{
-        margin: 0 0 1.9375vmin;
+        margin: 0 0 0.9375vmin;
         max-width: none;
         width: auto;
         left: 0;
@@ -1541,7 +1546,7 @@ footer .brand .copyright{
     .body6 .cards .card{
         margin: 1.5rem;
         border-radius: 2.5vmin;
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
         padding: 4.0625vmin 3.75vmin 7.5vmin 4.0625vmin;
     }
     .body6 .cards .card div{
@@ -1566,7 +1571,7 @@ footer .brand .copyright{
         font-size: 6.875vmin;
         line-height: 9.4375vmin;
         text-align: center;
-        max-width: 772px;
+        max-width: 758px;
         margin: auto;
         /* color: lightcyan ; */
     }
@@ -1597,6 +1602,7 @@ footer .brand .copyright{
         text-align: center;
         font-size: 5vmin;
     line-height: 6.5625vmin;
+    padding-inline: 1rem;
     }
     .body9{
         padding: 0 1.5rem;
@@ -1621,9 +1627,9 @@ footer .brand .copyright{
     margin: 0 0 7.8125vmin;
     text-align: center;
     padding-right: 0;
-    padding-inline: 5rem;
+    padding-inline: 0rem;
     position: relative;
-    max-width: 574px;
+    max-width: 701px;
     
     }
     .body9 .email-box img{
@@ -1674,7 +1680,7 @@ footer .brand .copyright{
         padding-top: 10rem;
     }
     footer li{
-        margin: 4vmin;
+        margin: 3.625vmin;
     }
     footer .container .col ul li a{
         font-size: 15px;
@@ -1700,7 +1706,7 @@ footer .brand .copyright{
         line-height: 5vmin;
         color: #7c80ad;
         margin: auto;
-        margin-bottom: 7rem;
+        margin-bottom: 9rem;
     }
     footer .container .brand img{
         position: relative;
@@ -1911,6 +1917,9 @@ footer .brand .copyright{
     padding-bottom:1rem;
     width: 20.625vmin;
 
+}
+.body-2-col-2-title{
+    width: auto;
 }
 .body2-features{
     display: flex;
@@ -2239,9 +2248,11 @@ display: none;
 }
 .body8 .columns .col .content .text{
     text-align: center;
+    padding-inline: 0;
 }
 .body9{
-    padding: 0 1rem
+    padding: 0 1rem;
+    margin-top: -2rem;
 }
 .body9 .email-box{
     display: flex;
@@ -2304,12 +2315,17 @@ display: none;
 .body9 .text button{
     left: 0;
 }
+footer{
+    padding-bottom: 2rem;
+    padding-top: 9rem;
+}
 footer .container{
     display: flex;
     flex-direction: column;
 height: auto;
 overflow-x:hidden;
 padding: 0;
+
 }
 footer .container .col{
     padding: 0;
@@ -2327,7 +2343,7 @@ footer .container .brand{
 footer .container .brand img{
     position: relative;
     left: 0rem;
-    height: 6rem;
+    height: 4rem;
     width: auto;
     margin-bottom: 1rem;
 }
