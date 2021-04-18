@@ -256,12 +256,13 @@ position: relative;
     letter-spacing: 0;
     line-height: 44px;
     margin-top: 0;
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     font-weight:400;
     margin-left: 2rem;
     padding-top: 7rem;
     color: #0e1889;
     max-width: 850px;
+    margin-bottom: 1.3rem;
     
 }
 .heading2 span{
@@ -1091,6 +1092,7 @@ footer .brand img{
     margin-bottom: 5rem;
     height: 3rem;
     width: 3rem;
+    top: 1.3rem;
 }
 footer .brand .copyright{
     color: #7c80ad;
@@ -1205,7 +1207,7 @@ footer .brand .copyright{
         flex-direction: column;
         padding:0;
         width: auto;
-        margin-top: 4rem;
+        margin-top: 5rem;
     }
     .body-2-columns .col{
         display: flex;
@@ -1252,7 +1254,7 @@ footer .brand .copyright{
     .body2-features{
         display: flex;
         flex-direction: column;
-       margin-top: 5rem;
+       margin-top: 7rem;
         padding:0;
         width: auto;
         margin-bottom: 4rem;
@@ -1299,7 +1301,7 @@ footer .brand .copyright{
     .body2-features2{
         display: flex;
         flex-direction: column;
-        margin: 3rem 0 2rem 0;
+        margin: 6rem 0 2rem 0;
         width: auto;
         padding: 0;
         
@@ -1391,7 +1393,7 @@ footer .brand .copyright{
         font-size: 6.875vmin;
         line-height: 8.4375vmin;
         text-align: center;
-        margin-top: 5rem;
+        margin-top: 6rem;
        
         padding: 0;
         width: auto;
@@ -1444,7 +1446,7 @@ footer .brand .copyright{
         margin: 0;
         font-family: "Helvetica Neue",Arial,sans-serif;
         font-weight: 600;
-        margin-bottom: 0rem;
+        margin-bottom: 1rem;
     }
     .body5 .leftBoxes .text-box-two{
         position: relative;
@@ -1714,6 +1716,7 @@ footer .brand .copyright{
         height: 6.6rem;
         width: auto;
         margin-bottom: 1rem;
+        top: 0;;
     }
     footer .container .left-cols .col1{
         width: 45%;
@@ -1914,7 +1917,7 @@ footer .brand .copyright{
 
 .body-2-col-img{
     padding-bottom:1rem;
-    width: 20.625vmin;
+    width: 23.125vmin
 
 }
 .body-2-col-2-title{
@@ -1946,6 +1949,9 @@ footer .brand .copyright{
 
 }
 .body-2-col-2{
+    padding:0.7rem;
+}
+.body-2-col-3{
     padding:0.7rem;
 }
 .body-2-col-1 {
@@ -2033,7 +2039,7 @@ footer .brand .copyright{
     display: flex;
     flex-direction: column;
     width: auto;
-    padding-inline: 0.8rem;
+    padding-inline: 1.1rem;
 
 }
 .body4 .col1{
@@ -2054,19 +2060,19 @@ footer .brand .copyright{
     top: 0;
 }
 .body4 .col1 .text{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     display: block;
     font-size: 9.0625vmin;
     line-height: 10.625vmin;
     text-align: center;
-    margin: 2rem 0 19.375vmin;
+    margin: 2rem 0 6.375vmin;
 }
 .body4 .col2{
     font-size: 6.875vmin;
     line-height: 8.4375vmin;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 4rem;
    
     padding: 0;
     width: auto;
@@ -2096,7 +2102,7 @@ footer .brand .copyright{
     flex-direction: column ;
     width: auto;
     padding: 0 3.75vmin;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 .body5 .leftBoxes .text::after{
     display: none;
@@ -2142,7 +2148,7 @@ margin-left: 1rem;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin: 5rem 0 22.5vmin;
+    margin: 6rem 0 22.5vmin;
 }
 
 .body5 .einstein img{
@@ -2254,7 +2260,7 @@ display: none;
     padding-inline: 0;
 }
 .body9{
-    padding: 0 0.6rem;
+    padding: 0 0.8rem;
     margin-top: -3rem;
 }
 .body9 .email-box{
@@ -2349,6 +2355,7 @@ footer .container .brand img{
     height: 4rem;
     width: auto;
     margin-bottom: 1rem;
+    top: 0;
 }
 footer .container .left-cols .col1{
     width: 45%;
