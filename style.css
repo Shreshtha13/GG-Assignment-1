@@ -751,7 +751,7 @@ top: 0rem;
     position: relative;
     bottom: 1rem;
     width: 18rem;
-    /* left: 7rem; */
+    left: -3rem;
     margin-right: 6rem;
     border: 2px solid #40ac76;
     border-radius: 4px;
@@ -811,7 +811,7 @@ top: 0rem;
     margin: auto;
 }
 .card{
-    margin: 1.5rem;
+    margin: 1.7rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1329,6 +1329,7 @@ footer .brand .copyright{
         margin: 0 0 2vmin;
         max-width: none;
         position: relative;
+        padding-inline: 1rem;
         
     }
     .body2-features2 .content .text{
@@ -1427,16 +1428,12 @@ footer .brand .copyright{
         display: none;
     }
     .body5 .leftBoxes {
-        /* margin-inline: 10rem; */
         margin-bottom: 10rem;
-        /* width: 100%; */
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin-inline: 4rem;
-        /* margin-inline: auto; */
+        margin-inline: 5rem;
         position: relative;
-        /* right: 3rem; */
     }
     .body5 .leftBoxes .text{
         font-size: 5.9375vmin;
@@ -1680,6 +1677,7 @@ footer .brand .copyright{
     }
     footer{
         padding-top: 10rem;
+        padding-bottom: 5rem;
     }
     footer li{
         margin: 3.625vmin;
@@ -1877,7 +1875,7 @@ footer .brand .copyright{
 }
 .body-container2 .heading2{
    padding-top: 2rem;
-    font-size:25px;
+    font-size:6.875vmin;
     line-height: 9.5vmin;
     text-align: center;
     order: 3;
@@ -1934,7 +1932,7 @@ footer .brand .copyright{
 }
 .body2-features img{
     height: 88.875vmin;
-    margin: 1rem auto -7vmin;
+    margin: 3rem auto -7vmin;
     /* position: relative; */
     left: 0rem;
    
@@ -2009,6 +2007,7 @@ footer .brand .copyright{
     margin: 0 0 3.125vmin;
     max-width: none;
     position: relative;
+    padding-inline: 0;
     
 }
 .body2-features2 .content .text{
